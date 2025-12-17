@@ -61,12 +61,4 @@ document.querySelectorAll('.card-3d').forEach(card => {
     });
 });
 
-// Form submission
-const form = document.querySelector('.contact-form');
-if (form) {
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        alert('Thank you for your message! I will get back to you soon.');
-        form.reset();
-    });
-}
+// Form submission - handled by Netlify Forms (native HTML submission)
