@@ -730,3 +730,24 @@ section:hover .hero-image {
     transform: translateY(-5px);
 }
 
+
+/* Certification Link Specific Fix */
+.cert-link {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 2px solid var(--accent-cyan);
+    padding-bottom: 2px;
+}
+
+.cert-link:hover {
+    filter: brightness(1.2);
+    border-color: var(--accent-purple);
+}
+
