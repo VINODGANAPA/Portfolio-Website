@@ -588,3 +588,101 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+
+/* Project Features List */
+.project-features {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.project-features li {
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    position: relative;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.project-features li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent-purple);
+    font-weight: bold;
+}
+
+/* Certifications Section */
+#certifications {
+    padding: 5rem 0;
+    background: rgba(255, 255, 255, 0.01);
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.cert-card {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.cert-icon {
+    font-size: 3rem;
+    color: var(--accent-purple);
+    margin-bottom: 1rem;
+}
+
+.cert-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.cert-card p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+/* Interests Section */
+#interests {
+    padding: 5rem 0;
+}
+
+.interests-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.interest-card {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.interest-icon {
+    font-size: 3rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 1rem;
+}
+
+.interest-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+
+.interest-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
