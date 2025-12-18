@@ -70,7 +70,7 @@ body {
 
 /* Subtle hover effect */
 .card-3d:hover {
-    transform: translateY(-5px) rotateX(2deg) rotateY(-2deg);
+    transform: translateY(-5px) rotateX(1deg) rotateY(-1deg);
     box-shadow: 0 15px 30px rgba(139, 92, 246, 0.15), 0 0 20px rgba(0, 245, 255, 0.05);
     border-color: rgba(155, 109, 255, 0.2);
 }

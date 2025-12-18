@@ -51,9 +51,9 @@ document.querySelectorAll('.card-3d').forEach(card => {
         const y = e.clientY - rect.top;
         const centerX = rect.width / 2;
         const centerY = rect.height / 2;
-        const rotateX = (y - centerY) / 10;
-        const rotateY = (centerX - x) / 10;
-        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(10px)`;
+        const rotateX = (y - centerY) / 50;
+        const rotateY = (centerX - x) / 50;
+        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(5px)`;
     });
 
     card.addEventListener('mouseleave', () => {
